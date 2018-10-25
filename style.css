@@ -1,0 +1,19 @@
+.harrypotter img {
+    height: 50%;
+    width: 100%;
+}
+
+.gameofthrones img{
+    height: 50%;
+    width: 100%;
+}
+
+.gameofthrones {
+    display: flex;
+    flex-direction: column;
+}
+
+.midcontainer {
+    display: flex;
+    flex-direction: row;
+}
