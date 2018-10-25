@@ -1,6 +1,6 @@
 .harrypotter img {
     height: 50%;
-    width: 100%;
+    width: 200%;
 }
 
 .gameofthrones img{
@@ -16,4 +16,8 @@
 .midcontainer {
     display: flex;
     flex-direction: row;
+}
+
+.header h1 {
+    text-align: center;
 }
