@@ -1,23 +1,72 @@
-.harrypotter img {
-    height: 50%;
-    width: 200%;
+.mainContainer{
+    background-color: lightsteelblue;
 }
 
-.gameofthrones img{
-    height: 50%;
-    width: 100%;
+html {
+    background-color: lightsteelblue;
 }
 
-.gameofthrones {
-    display: flex;
-    flex-direction: column;
+.header {
+  display: flex;
+  justify-content: center; 
+  font-family: 'Oswald', sans-serif; 
 }
 
 .midcontainer {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+} 
+
+img {
+    border-style: solid;
+}
+.harrypotter img {
+    /* height: ; */
+    width: 400px;
+    border-width: 10px;
+    border-color: seagreen;
 }
 
-.header h1 {
-    text-align: center;
+.harrypotter {
+    font-family: 'Niramit', sans-serif;
 }
+
+.harrypotter p {
+    color: green;
+}
+
+.harrypotter ol {
+    color: darkblue;
+}
+
+.color{
+    color: blue;
+}
+.gameofthrones img {
+    /* height: 50%; */
+    width: 400px;
+    border-width: 10px;
+    border-color: purple;
+}
+
+.gameofthrones {
+    font-family: 'Niramit', sans-serif;
+}
+
+.gameofthrones p {
+    color: green;
+}
+
+.gameofthrones ul {
+    color: darkblue;
+}
+
+.li1 {
+    list-style-type: square; 
+}
+
+.li2 {
+    list-style-type: georgian;
+}
+
